@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Lobster&display=swap');
+.logo {
+    width: 30%;
+}
+
+p, span, li{
+font-size: 11;
+color: black;
+font-family: Arial;
+}
+footer p{
+    color: whitesmoke;
+    font-family: Arial;
+}
+h1{
+    font-family: Arial;
+    font-size: 1.6rem;
+    color:  #3b5998;
+    font-weight: bold;
+}
+
+#profile h1{
+    color: black;
+}
+h2{
+    
+    font-family: Arial;
+    font-size: 14px;
+    color:  black;
+    font-weight: bold;
+}
+h3{
+    font-family: Arial;
+    font-size: 1.1rem;
+    color:  #3b5998;
+    font-weight: bold;
+}
+.hero-intro h1 {
+    font-size: 3rem;
+    font-family: Arial;
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    h1{
+        font-family: Arial;
+        font-size: 2rem;
+        color:  #3b5998;
+        font-weight: bold;
+    }
+    
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+.test-img{
+    width: 10%;
+}
